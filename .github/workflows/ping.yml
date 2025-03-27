@@ -1,7 +1,7 @@
 name: Ping Services
 on:
   schedule:
-    # Runs every 10 minutes
+    # Runs every 14 minutes
     - cron: '*/14 * * * *'
   workflow_dispatch:  # Allows manual triggering
 
